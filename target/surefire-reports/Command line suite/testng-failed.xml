@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.groupten.testscriptClass.AddMemberTest">
+        <methods>
+          <include name="preConditionTest"/>
+          <include name="verifyTitle"/>
+          <include name="addTest"/>
+        </methods>
+      </class> <!-- com.groupten.testscriptClass.AddMemberTest -->
+      <class name="com.groupten.testscriptClass.AddProjectTest">
+        <methods>
+          <include name="addTest"/>
+        </methods>
+      </class> <!-- com.groupten.testscriptClass.AddProjectTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
